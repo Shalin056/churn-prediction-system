@@ -68,7 +68,19 @@ This end-to-end machine learning system predicts customer churn with **80% recal
 ---
 
 ## ✨ Key Features
+## 📊 Business Context
 
+**Industry:** Software-as-a-Service (SaaS) / Cloud Services  
+**Customer Base:** 200,000 business subscribers  
+**Use Case:** Predict subscription cancellations for enterprise SaaS platform  
+**Similar to:** Google Workspace, Salesforce, Microsoft 365, Dropbox Business  
+
+**Customer Profile:**
+- B2B SaaS customers paying $80/month average
+- Contract types: Month-to-month, Annual, Multi-year
+- Services: Cloud storage, productivity tools, collaboration platform
+- Churn drivers: Cost concerns, low engagement, support issues, competitive offers
+  
 ### 🤖 **Machine Learning Excellence**
 - **5-model comparison**: Logistic Regression, Random Forest, XGBoost, LightGBM
 - **Best model**: LightGBM with 0.8374 ROC-AUC and 91% precision (top 10%)
