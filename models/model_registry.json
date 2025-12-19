@@ -9,7 +9,7 @@
       "roc_auc": 0.8311250202955434,
       "threshold": 0.5
     },
-    "timestamp": "2025-12-16T14:09:15.053741",
+    "timestamp": "2025-12-18T14:03:05.952366",
     "metadata": {
       "description": "Baseline logistic regression model"
     }
@@ -24,7 +24,7 @@
       "roc_auc": 0.8351666958304047,
       "threshold": 0.5
     },
-    "timestamp": "2025-12-16T14:09:47.197722",
+    "timestamp": "2025-12-18T14:03:34.736979",
     "metadata": {
       "description": "Random forest with class balancing"
     }
@@ -39,7 +39,7 @@
       "roc_auc": 0.8369187769791437,
       "threshold": 0.5
     },
-    "timestamp": "2025-12-16T14:09:56.298782",
+    "timestamp": "2025-12-18T14:03:42.714894",
     "metadata": {
       "description": "XGBoost gradient boosting model"
     }
@@ -47,35 +47,50 @@
   "best_model": {
     "model_path": "C:\\Users\\shali\\Documents\\shalin\\google\\churn-prediction-system\\models\\best_model.pkl",
     "metrics": {
-      "accuracy": 0.732525,
-      "precision": 0.647647162495594,
-      "recall": 0.8447215677259927,
-      "f1": 0.7331720577599322,
-      "roc_auc": 0.8369187769791437,
-      "threshold": 0.65
+      "accuracy": 0.733525,
+      "precision": 0.6491460932660826,
+      "recall": 0.8431699327624849,
+      "f1": 0.7335449841261905,
+      "roc_auc": 0.8374187055237259,
+      "threshold": 0.45000000000000007
     },
-    "timestamp": "2025-12-16T14:10:11.920573",
+    "timestamp": "2025-12-18T14:04:04.199634",
     "metadata": {
-      "model_type": "xgboost",
-      "optimal_threshold": 0.65,
+      "model_type": "lightgbm",
+      "optimal_threshold": 0.45000000000000007,
       "metrics_default_threshold": {
-        "accuracy": 0.69045,
-        "precision": 0.5910525742897572,
-        "recall": 0.9361530946497327,
-        "f1": 0.7246118944886794,
-        "roc_auc": 0.8369187769791437,
+        "accuracy": 0.74415,
+        "precision": 0.6744729538925945,
+        "recall": 0.7961036722027469,
+        "f1": 0.7302583025830258,
+        "roc_auc": 0.8374187055237259,
         "threshold": 0.5
       },
       "metrics_optimal_threshold": {
-        "accuracy": 0.732525,
-        "precision": 0.647647162495594,
-        "recall": 0.8447215677259927,
-        "f1": 0.7331720577599322,
-        "roc_auc": 0.8369187769791437,
-        "threshold": 0.65
+        "accuracy": 0.733525,
+        "precision": 0.6491460932660826,
+        "recall": 0.8431699327624849,
+        "f1": 0.7335449841261905,
+        "roc_auc": 0.8374187055237259,
+        "threshold": 0.45000000000000007
       },
-      "trained_on": "2025-12-16T14:09:56.298782",
+      "trained_on": "2025-12-18T14:03:49.545163",
       "description": "Production model with optimized threshold"
+    }
+  },
+  "lightgbm": {
+    "model_path": "C:\\Users\\shali\\Documents\\shalin\\google\\churn-prediction-system\\models\\lightgbm.pkl",
+    "metrics": {
+      "accuracy": 0.74415,
+      "precision": 0.6744729538925945,
+      "recall": 0.7961036722027469,
+      "f1": 0.7302583025830258,
+      "roc_auc": 0.8374187055237259,
+      "threshold": 0.5
+    },
+    "timestamp": "2025-12-18T14:03:49.545163",
+    "metadata": {
+      "description": "LightGBM gradient boosting model"
     }
   }
 }
