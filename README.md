@@ -309,7 +309,7 @@ Created **20+ engineered features** to capture complex patterns:
 
 ### **Live Production System**
 
-🌐 **Dashboard**: [YOUR_STREAMLIT_URL](https://01-churn-prediction-system.streamlit.app/)  
+🌐 **Dashboard**: [https://01-churn-prediction-system.streamlit.app/](https://01-churn-prediction-system.streamlit.app/)  
 📦 **GitHub**: [Repository](https://github.com/Shalin056/churn-prediction-system)  
 📊 **Performance**: 0.84 ROC-AUC, 91% precision (top 10%), $86.7M annual value
 
