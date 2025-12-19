@@ -68,18 +68,39 @@ This end-to-end machine learning system predicts customer churn with **80% recal
 ---
 
 ## ✨ Key Features
-## 📊 Business Context
+## 🏢 Business Context
 
-**Industry:** Software-as-a-Service (SaaS) / Cloud Services  
-**Customer Base:** 200,000 business subscribers  
-**Use Case:** Predict subscription cancellations for enterprise SaaS platform  
-**Similar to:** Google Workspace, Salesforce, Microsoft 365, Dropbox Business  
+### **Industry & Use Case**
 
-**Customer Profile:**
-- B2B SaaS customers paying $80/month average
-- Contract types: Month-to-month, Annual, Multi-year
-- Services: Cloud storage, productivity tools, collaboration platform
-- Churn drivers: Cost concerns, low engagement, support issues, competitive offers
+This system was designed for a **B2B SaaS platform** (cloud productivity and collaboration tools) serving 200,000 business customers, similar to:
+- Google Workspace
+- Microsoft 365
+- Salesforce
+- Dropbox Business
+
+### **Customer Segments**
+
+- **Small Business** (1-50 employees): $40-60/month
+- **Mid-Market** (51-500 employees): $70-100/month  
+- **Enterprise** (500+ employees): $100-150/month
+
+Average: $80/month, $1,920 annual value per customer
+
+### **Churn Drivers**
+
+The model identifies customers at risk of canceling due to:
+- Low product engagement (usage score)
+- High support burden (technical issues)
+- Cost concerns (high monthly charges)
+- Competitive switching (payment method changes)
+- Poor onboarding (new customers, short tenure)
+
+### **Business Impact**
+
+By targeting the top 10% highest-risk customers with personalized retention campaigns:
+- **Saves 3,624 customers** from churning (vs 1,740 with random targeting)
+- **Generates $86.7M** in retained annual revenue
+- **Achieves 248% ROI** on retention spending (vs 67% baseline)
   
 ### 🤖 **Machine Learning Excellence**
 - **5-model comparison**: Logistic Regression, Random Forest, XGBoost, LightGBM
